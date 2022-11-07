@@ -19,12 +19,9 @@ h3 {
 
 /* ------------Header-----------*/
 
-.header {
-    background-color: #FFFFFF;
-}
-
 
 .logo {
+    text-decoration: none;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -59,28 +56,24 @@ h3 {
 }
 
 .header-contacts {
+    text-decoration: none;
     list-style: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color)
 }
 
 .header-contacts:hover,
 .header-contacts:focus {
-    color: color: var(--accent-color);
-}
-
-.email {
-    text-decoration: none;
-
+    color: var(--accent-color);
 }
 
 .phone {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
+text-transform: uppercase; 
 }
+
 
 /*--------------Hero-------------*/
 
@@ -109,9 +102,6 @@ h3 {
 }
 
 /*--------------Benefits------------*/
-.benefits {
-    background-color: var(--primary-background-color);
-}
 
 .benefits-list {
     list-style: none;
@@ -133,10 +123,6 @@ h3 {
 }
 
 /*-------------activity-----------*/
-
-.activity {
-    background-color: var(--primary-background-color);
-}
 
 .activity-title {
     font-weight: 700;
@@ -214,6 +200,9 @@ h3 {
     letter-spacing: 0.03em;
 
 }
+.footer-list a {
+    text-decoration: none;
+}
 .footer-list a:hover,
 .footer-list a:focus {
     color: var(--accent-color);
@@ -224,34 +213,18 @@ h3 {
 
 }
 
-.footer-list-link {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
-
-}
-
-.footer-list-link:hover,
-.footer-list-link:focus {
-    color: var(--accent-color);
-
+.footer-list-mail {
+   color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-list-phone {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.6);
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list-phone:hover,
-.footer-list-phone:focus {
-    color: var(--accent-color);
-}
 
 /*---------------Portfolio----------------*/
 
-.portfolio {
-    background-color: var(--primary-background-color);
-}
 
 .portfolio-btns {
     list-style: none;
@@ -262,10 +235,12 @@ portfolio-btns .btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    text-align: Center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: var(--second-background-color);
 }
+
 .portfolio-btns .btn:hover,
 .portfolio-btns .btn:focus {
     color: var(--primary-white-color);
