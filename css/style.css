@@ -30,6 +30,7 @@ h3 {
     color: #000000;
 }
 
+
 .web {
     color: var(--accent-color);
 }
@@ -213,13 +214,8 @@ text-transform: uppercase;
 
 }
 
-.footer-list-mail {
-   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-list-phone {
-   text-transform: uppercase;
-   color: rgba(255, 255, 255, 0.6);
+.footer-list-contact {
+      color: rgba(255, 255, 255, 0.6);
 }
 
 
@@ -230,7 +226,7 @@ text-transform: uppercase;
     list-style: none;
     
 }
-portfolio-btns .btn {
+.portfolio-btns .btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
